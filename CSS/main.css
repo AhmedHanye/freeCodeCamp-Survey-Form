@@ -76,7 +76,7 @@ body {
   width: 720px;
   flex-direction: column;
   gap: 10px;
-  background-color: rgba(27, 27, 50, 0.9);
+  background-color: rgba(27, 27, 50);
   opacity: 0.9;
   padding: 30px 50px;
   border-radius: 5px;
@@ -128,8 +128,8 @@ select {
   border: 1px solid #ccc;
   border-radius: 6px;
   box-sizing: border-box;
-  color: #272746;
-  font-size: 16px;
+  color: black;
+  font-size: 1.1rem;
 }
 textarea {
   margin-top: 5px;
@@ -142,10 +142,12 @@ textarea {
 }
 button {
   width: 100%;
-  background-color: rgb(55, 175, 101);
+  background-color: rgb(4, 143, 57);
   color: #f3f3f3;
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.9px;
   line-height: 22px;
   border-radius: 2px;
   cursor: pointer;
