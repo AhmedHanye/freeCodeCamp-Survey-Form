@@ -76,8 +76,7 @@ body {
   width: 720px;
   flex-direction: column;
   gap: 10px;
-  background-color: rgba(27, 27, 50);
-  opacity: 0.9;
+  background-color: rgba(27, 27, 50,0.8);
   padding: 30px 50px;
   border-radius: 5px;
 }
